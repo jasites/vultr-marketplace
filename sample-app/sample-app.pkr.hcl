@@ -16,7 +16,7 @@ packer {
 source "vultr" "sample-app" {
   api_key              = "${var.vultr_api_key}"
   os_id                = "387"
-  plan_id              = "vc2-1c-1gb"
+  plan_id              = "marketplace-2c-2gb"
   region_id            = "ewr"
   snapshot_description = "Sample App ${formatdate("YYYY-MM-DD hh:mm", timestamp())}"
   ssh_username         = "root"
